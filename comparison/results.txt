@@ -1,0 +1,23 @@
+               user     system      total        real
+cover?     2.680057   0.003232   2.683289 (  2.686394)
+< >=       1.234952   0.000871   1.235823 (  1.237126)
+between?   2.571475   0.002505   2.573980 (  2.576272)
+include?   2.880250   0.002458   2.882708 (  2.885314)
+Warming up --------------------------------------
+       cover?: found   521.647k i/100ms
+   cover?: not found   518.322k i/100ms
+         < >=: found   807.945k i/100ms
+     < >=: not found   853.175k i/100ms
+     between?: found   540.253k i/100ms
+ between?: not found   540.135k i/100ms
+     include?: found   745.158k i/100ms
+ include?: not found   519.339k i/100ms
+Calculating -------------------------------------
+       cover?: found      5.107M (± 7.7%) i/s -     25.561M in   5.061276s
+   cover?: not found      5.128M (± 2.5%) i/s -     25.916M in   5.056745s
+         < >=: found      7.978M (± 2.0%) i/s -     40.397M in   5.065824s
+     < >=: not found      8.358M (± 2.8%) i/s -     41.806M in   5.006655s
+     between?: found      5.311M (± 1.4%) i/s -     27.013M in   5.087137s
+ between?: not found      5.294M (± 1.6%) i/s -     26.467M in   5.000694s
+     include?: found      7.172M (± 2.7%) i/s -     36.513M in   5.095388s
+ include?: not found      5.053M (± 1.6%) i/s -     25.448M in   5.037617s
