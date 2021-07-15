@@ -1,22 +1,5 @@
 Warming up --------------------------------------
 Hash#fetch symbol found
-                         1.856M i/100ms
-Hash#fetch string found
-                    Traceback (most recent call last):
-	10: from ./with_indifferent_access/test_simple.rb:8:in `<main>'
-	 9: from /Users/t2220402/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/benchmark-ips-2.9.1/lib/benchmark/ips.rb:53:in `ips'
-	 8: from /Users/t2220402/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/benchmark-ips-2.9.1/lib/benchmark/ips/job.rb:245:in `run'
-	 7: from /Users/t2220402/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/benchmark-ips-2.9.1/lib/benchmark/ips/job.rb:245:in `times'
-	 6: from /Users/t2220402/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/benchmark-ips-2.9.1/lib/benchmark/ips/job.rb:246:in `block in run'
-	 5: from /Users/t2220402/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/benchmark-ips-2.9.1/lib/benchmark/ips/job.rb:261:in `run_warmup'
-	 4: from /Users/t2220402/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/benchmark-ips-2.9.1/lib/benchmark/ips/job.rb:261:in `each'
-	 3: from /Users/t2220402/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/benchmark-ips-2.9.1/lib/benchmark/ips/job.rb:281:in `block in run_warmup'
-	 2: from (eval):6:in `call_times'
-	 1: from ./with_indifferent_access/test_simple.rb:18:in `block (2 levels) in <main>'
-./with_indifferent_access/test_simple.rb:18:in `fetch': key not found: "b" (KeyError)
-P133873:ruby-benchmarks t2220402$ ./with_indifferent_access/test_simple.rb
-Warming up --------------------------------------
-Hash#fetch symbol found
                          1.855M i/100ms
 Hash#fetch string found
                        995.950k i/100ms
