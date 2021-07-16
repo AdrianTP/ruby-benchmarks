@@ -1,240 +1,330 @@
 Warming up --------------------------------------
 Hash#fetch symbol found
-                         1.804M i/100ms
+                         1.769M i/100ms
 Hash#fetch string found
-                       974.150k i/100ms
+                       954.893k i/100ms
 Hash#fetch symbol not found
-                        70.027k i/100ms
+                        69.475k i/100ms
 Hash#fetch string not found
-                        59.082k i/100ms
-Hash#[] symbol found     2.296M i/100ms
-Hash#[] string found     1.830M i/100ms
+                        59.971k i/100ms
+Hash#[] symbol found     2.151M i/100ms
+Hash#[] string found     1.803M i/100ms
 Hash#[] symbol not found
-                         1.862M i/100ms
+                         1.834M i/100ms
 Hash#[] string not found
-                         1.596M i/100ms
+                         1.564M i/100ms
 Hash#dig symbol found
-                         1.689M i/100ms
+                         1.845M i/100ms
 Hash#dig string found
-                       955.934k i/100ms
+                       943.935k i/100ms
 Hash#dig symbol not found
-                         1.507M i/100ms
+                         1.580M i/100ms
 Hash#dig string not found
-                       990.816k i/100ms
+                       928.631k i/100ms
 Hash#with_indifferent_access#fetch symbol found by symbol
-                        68.138k i/100ms
+                        66.822k i/100ms
 Hash#with_indifferent_access#fetch symbol found by string
-                        70.950k i/100ms
+                        68.516k i/100ms
 Hash#with_indifferent_access#fetch string found by symbol
-                        62.237k i/100ms
+                        67.761k i/100ms
 Hash#with_indifferent_access#fetch string found by string
-                        63.077k i/100ms
+                        68.292k i/100ms
 Hash#with_indifferent_access#fetch symbol not found
-                        30.928k i/100ms
+                        28.469k i/100ms
 Hash#with_indifferent_access#fetch string not found
-                        31.503k i/100ms
+                        29.118k i/100ms
 Hash#with_indifferent_access#[] symbol found by symbol
-                        68.563k i/100ms
+                        69.815k i/100ms
 Hash#with_indifferent_access#[] symbol found by string
-                        72.907k i/100ms
+                        71.842k i/100ms
 Hash#with_indifferent_access#[] string found by symbol
-                        70.438k i/100ms
+                        60.013k i/100ms
 Hash#with_indifferent_access#[] string found by string
-                        71.648k i/100ms
+                        70.892k i/100ms
 Hash#with_indifferent_access#[] symbol not found
-                        56.844k i/100ms
+                        54.773k i/100ms
 Hash#with_indifferent_access#[] string not found
-                        60.919k i/100ms
+                        60.217k i/100ms
 Hash#with_indifferent_access#dig symbol found by symbol
-                        66.121k i/100ms
+                        65.309k i/100ms
 Hash#with_indifferent_access#dig symbol found by string
-                        68.993k i/100ms
+                        67.070k i/100ms
 Hash#with_indifferent_access#dig string found by symbol
-                        63.683k i/100ms
+                        64.582k i/100ms
 Hash#with_indifferent_access#dig string found by string
-                        59.514k i/100ms
+                        68.575k i/100ms
 Hash#with_indifferent_access#dig symbol not found
-                        54.293k i/100ms
+                        51.582k i/100ms
 Hash#with_indifferent_access#dig string not found
-                        51.050k i/100ms
+                        56.411k i/100ms
 indifferent Hash#fetch symbol found by symbol
-                       365.209k i/100ms
+                       379.493k i/100ms
 indifferent Hash#fetch symbol found by string
-                       415.432k i/100ms
+                       407.346k i/100ms
 indifferent Hash#fetch string found by symbol
-                       359.825k i/100ms
+                       364.597k i/100ms
 indifferent Hash#fetch string found by string
-                       417.244k i/100ms
+                       411.603k i/100ms
 indifferent Hash#fetch symbol not found
-                        52.024k i/100ms
+                        50.248k i/100ms
 indifferent Hash#fetch string not found
-                        55.008k i/100ms
+                        52.018k i/100ms
 indifferent Hash#[] symbol found by symbol
-                       472.342k i/100ms
+                       460.173k i/100ms
 indifferent Hash#[] symbol found by string
-                       548.520k i/100ms
+                       492.367k i/100ms
 indifferent Hash#[] string found by symbol
-                       466.600k i/100ms
+                       454.875k i/100ms
 indifferent Hash#[] string found by string
-                       565.683k i/100ms
+                       507.340k i/100ms
 indifferent Hash#[] symbol not found
-                       192.870k i/100ms
+                       189.244k i/100ms
 indifferent Hash#[] string not found
-                       215.854k i/100ms
+                       206.964k i/100ms
 indifferent Hash#dig symbol found by symbol
-                       336.775k i/100ms
+                       324.363k i/100ms
 indifferent Hash#dig symbol found by string
-                       367.152k i/100ms
+                       360.958k i/100ms
 indifferent Hash#dig string found by symbol
-                       329.097k i/100ms
+                       327.496k i/100ms
 indifferent Hash#dig string found by string
-                       370.437k i/100ms
+                       218.138k i/100ms
 indifferent Hash#dig symbol not found
-                       159.217k i/100ms
+                       153.940k i/100ms
 indifferent Hash#dig string not found
-                       169.128k i/100ms
+                       173.925k i/100ms
+HashWithIndifferentAccess#fetch symbol found by symbol
+                       375.907k i/100ms
+HashWithIndifferentAccess#fetch symbol found by string
+                       395.701k i/100ms
+HashWithIndifferentAccess#fetch string found by symbol
+                       367.319k i/100ms
+HashWithIndifferentAccess#fetch string found by string
+                       310.749k i/100ms
+HashWithIndifferentAccess#fetch symbol not found
+                        52.112k i/100ms
+HashWithIndifferentAccess#fetch string not found
+                        50.995k i/100ms
+HashWithIndifferentAccess#[] symbol found by symbol
+                       471.814k i/100ms
+HashWithIndifferentAccess#[] symbol found by string
+                       498.918k i/100ms
+HashWithIndifferentAccess#[] string found by symbol
+                       460.806k i/100ms
+HashWithIndifferentAccess#[] string found by string
+                       518.308k i/100ms
+HashWithIndifferentAccess#[] symbol not found
+                       191.717k i/100ms
+HashWithIndifferentAccess#[] string not found
+                       209.866k i/100ms
+HashWithIndifferentAccess#dig symbol found by symbol
+                       332.863k i/100ms
+HashWithIndifferentAccess#dig symbol found by string
+                       351.610k i/100ms
+HashWithIndifferentAccess#dig string found by symbol
+                       329.237k i/100ms
+HashWithIndifferentAccess#dig string found by string
+                       370.407k i/100ms
+HashWithIndifferentAccess#dig symbol not found
+                       151.449k i/100ms
+HashWithIndifferentAccess#dig string not found
+                       162.458k i/100ms
 Calculating -------------------------------------
 Hash#fetch symbol found
-                         17.997M (± 2.2%) i/s -     90.217M in   5.015653s
+                         17.742M (± 1.0%) i/s -     90.215M in   5.085457s
 Hash#fetch string found
-                          9.691M (± 2.4%) i/s -     48.708M in   5.029100s
+                          9.543M (± 3.1%) i/s -     47.745M in   5.008427s
 Hash#fetch symbol not found
-                        746.356k (± 2.1%) i/s -      3.781M in   5.068778s
+                        686.162k (± 4.1%) i/s -      3.474M in   5.071157s
 Hash#fetch string not found
-                        597.236k (± 6.8%) i/s -      3.013M in   5.080483s
-Hash#[] symbol found     22.995M (± 1.4%) i/s -    117.083M in   5.092685s
-Hash#[] string found     17.538M (± 8.1%) i/s -     87.823M in   5.050533s
+                        567.748k (± 9.3%) i/s -      2.819M in   5.037790s
+Hash#[] symbol found     22.487M (± 4.3%) i/s -    113.980M in   5.079353s
+Hash#[] string found     15.862M (±15.0%) i/s -     79.354M in   5.149124s
 Hash#[] symbol not found
-                         18.200M (± 4.3%) i/s -     91.257M in   5.024257s
+                         15.915M (±21.5%) i/s -     73.344M in   5.016637s
 Hash#[] string not found
-                         16.110M (± 3.0%) i/s -     81.396M in   5.057593s
+                         14.116M (± 9.3%) i/s -     70.371M in   5.031842s
 Hash#dig symbol found
-                         18.737M (± 3.7%) i/s -     94.582M in   5.057046s
+                         17.782M (± 7.6%) i/s -     88.548M in   5.014363s
 Hash#dig string found
-                          9.825M (± 2.3%) i/s -     49.709M in   5.062563s
+                          9.508M (± 4.0%) i/s -     48.141M in   5.071249s
 Hash#dig symbol not found
-                         15.991M (± 0.8%) i/s -     81.384M in   5.089752s
+                         15.340M (± 5.1%) i/s -     77.403M in   5.060249s
 Hash#dig string not found
-                         10.107M (± 1.3%) i/s -     50.532M in   5.000330s
+                          9.420M (± 8.6%) i/s -     47.360M in   5.072280s
 Hash#with_indifferent_access#fetch symbol found by symbol
-                        686.183k (± 1.0%) i/s -      3.475M in   5.064850s
+                        637.811k (± 9.8%) i/s -      3.207M in   5.085670s
 Hash#with_indifferent_access#fetch symbol found by string
-                        703.126k (± 3.2%) i/s -      3.548M in   5.051225s
+                        669.910k (± 7.5%) i/s -      3.357M in   5.049008s
 Hash#with_indifferent_access#fetch string found by symbol
-                        685.268k (± 1.8%) i/s -      3.485M in   5.087640s
+                        642.813k (± 9.9%) i/s -      3.253M in   5.125309s
 Hash#with_indifferent_access#fetch string found by string
-                        687.600k (± 9.1%) i/s -      3.406M in   5.046300s
+                        599.027k (±15.0%) i/s -      2.868M in   5.026007s
 Hash#with_indifferent_access#fetch symbol not found
-                        307.295k (± 2.8%) i/s -      1.546M in   5.036313s
+                        260.072k (±16.8%) i/s -      1.281M in   5.118694s
 Hash#with_indifferent_access#fetch string not found
-                        285.178k (±16.8%) i/s -      1.386M in   5.076520s
+                        284.026k (±18.2%) i/s -      1.310M in   5.079551s
 Hash#with_indifferent_access#[] symbol found by symbol
-                        696.843k (± 7.0%) i/s -      3.497M in   5.050804s
+                        586.033k (±17.8%) i/s -      2.723M in   5.009262s
 Hash#with_indifferent_access#[] symbol found by string
-                        732.718k (± 1.7%) i/s -      3.718M in   5.076038s
+                        727.315k (± 1.5%) i/s -      3.664M in   5.038861s
 Hash#with_indifferent_access#[] string found by symbol
-                        717.268k (± 1.9%) i/s -      3.592M in   5.010321s
+                        660.073k (±10.4%) i/s -      3.301M in   5.063902s
 Hash#with_indifferent_access#[] string found by string
-                        710.799k (± 4.4%) i/s -      3.582M in   5.050462s
+                        682.823k (± 8.8%) i/s -      3.403M in   5.032027s
 Hash#with_indifferent_access#[] symbol not found
-                        561.110k (± 4.0%) i/s -      2.842M in   5.073557s
+                        568.355k (± 3.6%) i/s -      2.848M in   5.018362s
 Hash#with_indifferent_access#[] string not found
-                        601.102k (± 2.5%) i/s -      3.046M in   5.070575s
+                        540.727k (±12.2%) i/s -      2.710M in   5.105730s
 Hash#with_indifferent_access#dig symbol found by symbol
-                        662.644k (± 1.7%) i/s -      3.372M in   5.090547s
+                        633.683k (± 6.0%) i/s -      3.200M in   5.070494s
 Hash#with_indifferent_access#dig symbol found by string
-                        683.842k (± 1.9%) i/s -      3.450M in   5.046451s
+                        639.763k (±10.1%) i/s -      3.219M in   5.104198s
 Hash#with_indifferent_access#dig string found by symbol
-                        652.904k (± 7.3%) i/s -      3.248M in   5.021561s
+                        642.878k (± 3.9%) i/s -      3.229M in   5.030788s
 Hash#with_indifferent_access#dig string found by string
-                        630.988k (±13.2%) i/s -      3.095M in   5.023786s
+                        623.042k (±17.1%) i/s -      2.949M in   5.014669s
 Hash#with_indifferent_access#dig symbol not found
-                        540.892k (± 2.4%) i/s -      2.715M in   5.021842s
+                        526.077k (± 7.9%) i/s -      2.682M in   5.136789s
 Hash#with_indifferent_access#dig string not found
-                        550.149k (± 9.9%) i/s -      2.757M in   5.088159s
+                        545.574k (± 8.8%) i/s -      2.708M in   5.019362s
 indifferent Hash#fetch symbol found by symbol
-                          3.751M (± 1.3%) i/s -     18.991M in   5.063256s
+                          3.681M (± 3.6%) i/s -     18.595M in   5.058524s
 indifferent Hash#fetch symbol found by string
-                          4.183M (± 2.4%) i/s -     21.187M in   5.067795s
+                          4.003M (± 3.0%) i/s -     20.367M in   5.093319s
 indifferent Hash#fetch string found by symbol
-                          3.691M (± 1.7%) i/s -     18.711M in   5.070536s
+                          3.655M (± 2.6%) i/s -     18.594M in   5.091050s
 indifferent Hash#fetch string found by string
-                          4.243M (± 3.2%) i/s -     21.279M in   5.020745s
+                          4.053M (± 3.0%) i/s -     20.580M in   5.082009s
 indifferent Hash#fetch symbol not found
-                        541.330k (± 3.0%) i/s -      2.705M in   5.002263s
+                        508.685k (± 5.4%) i/s -      2.563M in   5.052566s
 indifferent Hash#fetch string not found
-                        537.154k (± 2.3%) i/s -      2.695M in   5.020661s
+                        511.248k (± 5.8%) i/s -      2.549M in   5.003036s
 indifferent Hash#[] symbol found by symbol
-                          4.734M (± 1.9%) i/s -     24.089M in   5.090530s
+                          4.654M (± 4.9%) i/s -     23.469M in   5.056504s
 indifferent Hash#[] symbol found by string
-                          5.469M (± 2.2%) i/s -     27.426M in   5.017449s
+                          4.816M (± 6.7%) i/s -     24.126M in   5.035476s
 indifferent Hash#[] string found by symbol
-                          4.609M (± 6.8%) i/s -     22.863M in   5.001030s
+                          4.118M (±16.5%) i/s -     20.014M in   5.048750s
 indifferent Hash#[] string found by string
-                          5.606M (± 2.9%) i/s -     28.284M in   5.049892s
+                          4.935M (± 9.6%) i/s -     24.352M in   5.005271s
 indifferent Hash#[] symbol not found
-                          1.873M (± 4.9%) i/s -      9.451M in   5.060198s
+                          1.824M (± 5.4%) i/s -      9.273M in   5.098702s
 indifferent Hash#[] string not found
-                          2.091M (± 9.4%) i/s -     10.361M in   5.038887s
+                          2.038M (±10.7%) i/s -     10.141M in   5.072089s
 indifferent Hash#dig symbol found by symbol
-                          3.332M (± 1.7%) i/s -     16.839M in   5.054769s
+                          3.335M (± 1.9%) i/s -     16.867M in   5.058582s
 indifferent Hash#dig symbol found by string
-                          3.660M (± 1.9%) i/s -     18.358M in   5.018153s
+                          3.623M (± 2.2%) i/s -     18.409M in   5.084051s
 indifferent Hash#dig string found by symbol
-                          3.262M (± 2.8%) i/s -     16.455M in   5.048056s
+                          3.289M (± 2.5%) i/s -     16.702M in   5.081210s
 indifferent Hash#dig string found by string
-                          3.695M (± 2.4%) i/s -     18.522M in   5.016068s
+                          3.435M (±12.2%) i/s -     17.015M in   5.041229s
 indifferent Hash#dig symbol not found
-                          1.586M (± 2.0%) i/s -      7.961M in   5.020689s
+                          1.581M (± 4.3%) i/s -      8.005M in   5.073171s
 indifferent Hash#dig string not found
-                          1.711M (± 1.7%) i/s -      8.626M in   5.041914s
+                          1.578M (±12.9%) i/s -      7.827M in   5.067647s
+HashWithIndifferentAccess#fetch symbol found by symbol
+                          3.735M (± 3.2%) i/s -     18.795M in   5.037645s
+HashWithIndifferentAccess#fetch symbol found by string
+                          3.675M (± 9.4%) i/s -     18.598M in   5.106422s
+HashWithIndifferentAccess#fetch string found by symbol
+                          3.378M (± 8.3%) i/s -     16.897M in   5.040081s
+HashWithIndifferentAccess#fetch string found by string
+                          3.975M (±13.5%) i/s -     19.266M in   5.064876s
+HashWithIndifferentAccess#fetch symbol not found
+                        490.477k (± 9.2%) i/s -      2.449M in   5.040075s
+HashWithIndifferentAccess#fetch string not found
+                        476.333k (±10.9%) i/s -      2.397M in   5.103972s
+HashWithIndifferentAccess#[] symbol found by symbol
+                          4.711M (± 1.9%) i/s -     23.591M in   5.009097s
+HashWithIndifferentAccess#[] symbol found by string
+                          4.622M (±10.6%) i/s -     22.950M in   5.030194s
+HashWithIndifferentAccess#[] string found by symbol
+                          4.567M (± 5.4%) i/s -     23.040M in   5.065128s
+HashWithIndifferentAccess#[] string found by string
+                          5.170M (± 3.5%) i/s -     25.915M in   5.019213s
+HashWithIndifferentAccess#[] symbol not found
+                          1.899M (± 1.9%) i/s -      9.586M in   5.050584s
+HashWithIndifferentAccess#[] string not found
+                          2.118M (± 2.4%) i/s -     10.703M in   5.056796s
+HashWithIndifferentAccess#dig symbol found by symbol
+                          3.335M (± 2.7%) i/s -     16.976M in   5.094483s
+HashWithIndifferentAccess#dig symbol found by string
+                          3.275M (±16.9%) i/s -     15.822M in   5.032703s
+HashWithIndifferentAccess#dig string found by symbol
+                          3.062M (± 9.3%) i/s -     15.145M in   5.003642s
+HashWithIndifferentAccess#dig string found by string
+                          3.086M (±17.9%) i/s -     14.816M in   5.024924s
+HashWithIndifferentAccess#dig symbol not found
+                          1.530M (± 5.9%) i/s -      7.724M in   5.067977s
+HashWithIndifferentAccess#dig string not found
+                          1.544M (±17.8%) i/s -      7.311M in   5.008278s
 
 Comparison:
-Hash#[] symbol found: 22995103.6 i/s
-Hash#dig symbol found: 18736802.2 i/s - 1.23x  (± 0.00) slower
-Hash#[] symbol not found: 18199556.1 i/s - 1.26x  (± 0.00) slower
-Hash#fetch symbol found: 17996585.8 i/s - 1.28x  (± 0.00) slower
-Hash#[] string found: 17538154.5 i/s - 1.31x  (± 0.00) slower
-Hash#[] string not found: 16109613.2 i/s - 1.43x  (± 0.00) slower
-Hash#dig symbol not found: 15990776.7 i/s - 1.44x  (± 0.00) slower
-Hash#dig string not found: 10107340.8 i/s - 2.28x  (± 0.00) slower
-Hash#dig string found:  9824537.3 i/s - 2.34x  (± 0.00) slower
-Hash#fetch string found:  9691169.1 i/s - 2.37x  (± 0.00) slower
-indifferent Hash#[] string found by string:  5606369.2 i/s - 4.10x  (± 0.00) slower
-indifferent Hash#[] symbol found by string:  5469026.0 i/s - 4.20x  (± 0.00) slower
-indifferent Hash#[] symbol found by symbol:  4734077.5 i/s - 4.86x  (± 0.00) slower
-indifferent Hash#[] string found by symbol:  4608627.8 i/s - 4.99x  (± 0.00) slower
-indifferent Hash#fetch string found by string:  4243070.3 i/s - 5.42x  (± 0.00) slower
-indifferent Hash#fetch symbol found by string:  4183384.3 i/s - 5.50x  (± 0.00) slower
-indifferent Hash#fetch symbol found by symbol:  3751360.3 i/s - 6.13x  (± 0.00) slower
-indifferent Hash#dig string found by string:  3694856.6 i/s - 6.22x  (± 0.00) slower
-indifferent Hash#fetch string found by symbol:  3691268.7 i/s - 6.23x  (± 0.00) slower
-indifferent Hash#dig symbol found by string:  3659570.4 i/s - 6.28x  (± 0.00) slower
-indifferent Hash#dig symbol found by symbol:  3332304.4 i/s - 6.90x  (± 0.00) slower
-indifferent Hash#dig string found by symbol:  3262313.7 i/s - 7.05x  (± 0.00) slower
-indifferent Hash#[] string not found:  2090694.5 i/s - 11.00x  (± 0.00) slower
-indifferent Hash#[] symbol not found:  1873209.9 i/s - 12.28x  (± 0.00) slower
-indifferent Hash#dig string not found:  1711262.2 i/s - 13.44x  (± 0.00) slower
-indifferent Hash#dig symbol not found:  1586284.7 i/s - 14.50x  (± 0.00) slower
-Hash#fetch symbol not found:   746355.7 i/s - 30.81x  (± 0.00) slower
-Hash#with_indifferent_access#[] symbol found by string:   732717.5 i/s - 31.38x  (± 0.00) slower
-Hash#with_indifferent_access#[] string found by symbol:   717267.9 i/s - 32.06x  (± 0.00) slower
-Hash#with_indifferent_access#[] string found by string:   710798.6 i/s - 32.35x  (± 0.00) slower
-Hash#with_indifferent_access#fetch symbol found by string:   703125.5 i/s - 32.70x  (± 0.00) slower
-Hash#with_indifferent_access#[] symbol found by symbol:   696843.5 i/s - 33.00x  (± 0.00) slower
-Hash#with_indifferent_access#fetch string found by string:   687599.6 i/s - 33.44x  (± 0.00) slower
-Hash#with_indifferent_access#fetch symbol found by symbol:   686182.7 i/s - 33.51x  (± 0.00) slower
-Hash#with_indifferent_access#fetch string found by symbol:   685267.6 i/s - 33.56x  (± 0.00) slower
-Hash#with_indifferent_access#dig symbol found by string:   683841.5 i/s - 33.63x  (± 0.00) slower
-Hash#with_indifferent_access#dig symbol found by symbol:   662643.6 i/s - 34.70x  (± 0.00) slower
-Hash#with_indifferent_access#dig string found by symbol:   652904.3 i/s - 35.22x  (± 0.00) slower
-Hash#with_indifferent_access#dig string found by string:   630988.3 i/s - 36.44x  (± 0.00) slower
-Hash#with_indifferent_access#[] string not found:   601102.2 i/s - 38.25x  (± 0.00) slower
-Hash#fetch string not found:   597236.4 i/s - 38.50x  (± 0.00) slower
-Hash#with_indifferent_access#[] symbol not found:   561109.8 i/s - 40.98x  (± 0.00) slower
-Hash#with_indifferent_access#dig string not found:   550148.7 i/s - 41.80x  (± 0.00) slower
-indifferent Hash#fetch symbol not found:   541330.4 i/s - 42.48x  (± 0.00) slower
-Hash#with_indifferent_access#dig symbol not found:   540892.0 i/s - 42.51x  (± 0.00) slower
-indifferent Hash#fetch string not found:   537154.2 i/s - 42.81x  (± 0.00) slower
-Hash#with_indifferent_access#fetch symbol not found:   307294.9 i/s - 74.83x  (± 0.00) slower
-Hash#with_indifferent_access#fetch string not found:   285177.5 i/s - 80.63x  (± 0.00) slower
+Hash#[] symbol found: 22487315.5 i/s
+Hash#dig symbol found: 17781501.8 i/s - 1.26x  (± 0.00) slower
+Hash#fetch symbol found: 17741562.0 i/s - 1.27x  (± 0.00) slower
+Hash#[] symbol not found: 15915393.3 i/s - 1.41x  (± 0.00) slower
+Hash#[] string found: 15862105.8 i/s - 1.42x  (± 0.00) slower
+Hash#dig symbol not found: 15339690.1 i/s - 1.47x  (± 0.00) slower
+Hash#[] string not found: 14115830.0 i/s - 1.59x  (± 0.00) slower
+Hash#fetch string found:  9542571.6 i/s - 2.36x  (± 0.00) slower
+Hash#dig string found:  9508291.3 i/s - 2.37x  (± 0.00) slower
+Hash#dig string not found:  9420139.9 i/s - 2.39x  (± 0.00) slower
+HashWithIndifferentAccess#[] string found by string:  5169998.4 i/s - 4.35x  (± 0.00) slower
+indifferent Hash#[] string found by string:  4935053.0 i/s - 4.56x  (± 0.00) slower
+indifferent Hash#[] symbol found by string:  4815657.7 i/s - 4.67x  (± 0.00) slower
+HashWithIndifferentAccess#[] symbol found by symbol:  4711297.7 i/s - 4.77x  (± 0.00) slower
+indifferent Hash#[] symbol found by symbol:  4653624.8 i/s - 4.83x  (± 0.00) slower
+HashWithIndifferentAccess#[] symbol found by string:  4621889.3 i/s - 4.87x  (± 0.00) slower
+HashWithIndifferentAccess#[] string found by symbol:  4566699.2 i/s - 4.92x  (± 0.00) slower
+indifferent Hash#[] string found by symbol:  4118393.8 i/s - 5.46x  (± 0.00) slower
+indifferent Hash#fetch string found by string:  4053285.0 i/s - 5.55x  (± 0.00) slower
+indifferent Hash#fetch symbol found by string:  4002615.2 i/s - 5.62x  (± 0.00) slower
+HashWithIndifferentAccess#fetch string found by string:  3974596.8 i/s - 5.66x  (± 0.00) slower
+HashWithIndifferentAccess#fetch symbol found by symbol:  3735193.0 i/s - 6.02x  (± 0.00) slower
+indifferent Hash#fetch symbol found by symbol:  3680813.5 i/s - 6.11x  (± 0.00) slower
+HashWithIndifferentAccess#fetch symbol found by string:  3674845.8 i/s - 6.12x  (± 0.00) slower
+indifferent Hash#fetch string found by symbol:  3654877.0 i/s - 6.15x  (± 0.00) slower
+indifferent Hash#dig symbol found by string:  3622664.8 i/s - 6.21x  (± 0.00) slower
+indifferent Hash#dig string found by string:  3435302.9 i/s - 6.55x  (± 0.00) slower
+HashWithIndifferentAccess#fetch string found by symbol:  3378430.9 i/s - 6.66x  (± 0.00) slower
+indifferent Hash#dig symbol found by symbol:  3335491.3 i/s - 6.74x  (± 0.00) slower
+HashWithIndifferentAccess#dig symbol found by symbol:  3334801.9 i/s - 6.74x  (± 0.00) slower
+indifferent Hash#dig string found by symbol:  3289304.4 i/s - 6.84x  (± 0.00) slower
+HashWithIndifferentAccess#dig symbol found by string:  3274950.1 i/s - 6.87x  (± 0.00) slower
+HashWithIndifferentAccess#dig string found by string:  3085941.0 i/s - 7.29x  (± 0.00) slower
+HashWithIndifferentAccess#dig string found by symbol:  3061714.6 i/s - 7.34x  (± 0.00) slower
+HashWithIndifferentAccess#[] string not found:  2117906.8 i/s - 10.62x  (± 0.00) slower
+indifferent Hash#[] string not found:  2037613.1 i/s - 11.04x  (± 0.00) slower
+HashWithIndifferentAccess#[] symbol not found:  1898647.2 i/s - 11.84x  (± 0.00) slower
+indifferent Hash#[] symbol not found:  1824306.0 i/s - 12.33x  (± 0.00) slower
+indifferent Hash#dig symbol not found:  1581456.6 i/s - 14.22x  (± 0.00) slower
+indifferent Hash#dig string not found:  1577944.4 i/s - 14.25x  (± 0.00) slower
+HashWithIndifferentAccess#dig string not found:  1544199.8 i/s - 14.56x  (± 0.00) slower
+HashWithIndifferentAccess#dig symbol not found:  1530199.9 i/s - 14.70x  (± 0.00) slower
+Hash#with_indifferent_access#[] symbol found by string:   727315.1 i/s - 30.92x  (± 0.00) slower
+Hash#fetch symbol not found:   686162.1 i/s - 32.77x  (± 0.00) slower
+Hash#with_indifferent_access#[] string found by string:   682823.1 i/s - 32.93x  (± 0.00) slower
+Hash#with_indifferent_access#fetch symbol found by string:   669910.1 i/s - 33.57x  (± 0.00) slower
+Hash#with_indifferent_access#[] string found by symbol:   660073.4 i/s - 34.07x  (± 0.00) slower
+Hash#with_indifferent_access#dig string found by symbol:   642877.9 i/s - 34.98x  (± 0.00) slower
+Hash#with_indifferent_access#fetch string found by symbol:   642813.1 i/s - 34.98x  (± 0.00) slower
+Hash#with_indifferent_access#dig symbol found by string:   639762.6 i/s - 35.15x  (± 0.00) slower
+Hash#with_indifferent_access#fetch symbol found by symbol:   637811.4 i/s - 35.26x  (± 0.00) slower
+Hash#with_indifferent_access#dig symbol found by symbol:   633682.9 i/s - 35.49x  (± 0.00) slower
+Hash#with_indifferent_access#dig string found by string:   623041.7 i/s - 36.09x  (± 0.00) slower
+Hash#with_indifferent_access#fetch string found by string:   599026.5 i/s - 37.54x  (± 0.00) slower
+Hash#with_indifferent_access#[] symbol found by symbol:   586032.9 i/s - 38.37x  (± 0.00) slower
+Hash#with_indifferent_access#[] symbol not found:   568355.3 i/s - 39.57x  (± 0.00) slower
+Hash#fetch string not found:   567747.7 i/s - 39.61x  (± 0.00) slower
+Hash#with_indifferent_access#dig string not found:   545573.7 i/s - 41.22x  (± 0.00) slower
+Hash#with_indifferent_access#[] string not found:   540726.5 i/s - 41.59x  (± 0.00) slower
+Hash#with_indifferent_access#dig symbol not found:   526077.1 i/s - 42.75x  (± 0.00) slower
+indifferent Hash#fetch string not found:   511248.3 i/s - 43.99x  (± 0.00) slower
+indifferent Hash#fetch symbol not found:   508685.5 i/s - 44.21x  (± 0.00) slower
+HashWithIndifferentAccess#fetch symbol not found:   490477.1 i/s - 45.85x  (± 0.00) slower
+HashWithIndifferentAccess#fetch string not found:   476333.3 i/s - 47.21x  (± 0.00) slower
+Hash#with_indifferent_access#fetch string not found:   284026.1 i/s - 79.17x  (± 0.00) slower
+Hash#with_indifferent_access#fetch symbol not found:   260071.6 i/s - 86.47x  (± 0.00) slower

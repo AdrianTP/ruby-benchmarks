@@ -10,6 +10,9 @@ Benchmark.ips do |x|
 
   @hash = { a: 1, 'b' => 2 }
   @indifferent_hash = { a: 1, 'b' => 2 }.with_indifferent_access
+  @hash_with_indifferent_access = ActiveSupport::HashWithIndifferentAccess.new(a: 1, 'b' => 2)
+
+  # Plain old Ruby Hash
 
   x.report('Hash#fetch symbol found') do
     @hash.fetch(:a)
@@ -62,6 +65,8 @@ Benchmark.ips do |x|
   x.report('Hash#dig string not found') do
     @hash.dig('c')
   end
+
+  # Hash accessed by chaining with_indifferent_access at runtime
 
   x.report('Hash#with_indifferent_access#fetch symbol found by symbol') do
     @hash.with_indifferent_access.fetch(:a)
@@ -139,6 +144,8 @@ Benchmark.ips do |x|
     @hash.with_indifferent_access.dig('c')
   end
 
+  # Hash saved using with_indifferent_access
+
   x.report('indifferent Hash#fetch symbol found by symbol') do
     @indifferent_hash.fetch(:a)
   end
@@ -213,6 +220,84 @@ Benchmark.ips do |x|
 
   x.report('indifferent Hash#dig string not found') do
     @indifferent_hash.dig('c')
+  end
+
+  # ActiveSupport::HashWithIndifferentAccess
+
+  x.report('HashWithIndifferentAccess#fetch symbol found by symbol') do
+    @hash_with_indifferent_access.fetch(:a)
+  end
+
+  x.report('HashWithIndifferentAccess#fetch symbol found by string') do
+    @hash_with_indifferent_access.fetch('a')
+  end
+
+  x.report('HashWithIndifferentAccess#fetch string found by symbol') do
+    @hash_with_indifferent_access.fetch(:b)
+  end
+
+  x.report('HashWithIndifferentAccess#fetch string found by string') do
+    @hash_with_indifferent_access.fetch('b')
+  end
+
+  x.report('HashWithIndifferentAccess#fetch symbol not found') do
+    @hash_with_indifferent_access.fetch(:c)
+  rescue
+    nil
+  end
+
+  x.report('HashWithIndifferentAccess#fetch string not found') do
+    @hash_with_indifferent_access.fetch('c')
+  rescue
+    nil
+  end
+
+  x.report('HashWithIndifferentAccess#[] symbol found by symbol') do
+    @hash_with_indifferent_access[:a]
+  end
+
+  x.report('HashWithIndifferentAccess#[] symbol found by string') do
+    @hash_with_indifferent_access['a']
+  end
+
+  x.report('HashWithIndifferentAccess#[] string found by symbol') do
+    @hash_with_indifferent_access[:b]
+  end
+
+  x.report('HashWithIndifferentAccess#[] string found by string') do
+    @hash_with_indifferent_access['b']
+  end
+
+  x.report('HashWithIndifferentAccess#[] symbol not found') do
+    @hash_with_indifferent_access[:c]
+  end
+
+  x.report('HashWithIndifferentAccess#[] string not found') do
+    @hash_with_indifferent_access['c']
+  end
+
+  x.report('HashWithIndifferentAccess#dig symbol found by symbol') do
+    @hash_with_indifferent_access.dig(:a)
+  end
+
+  x.report('HashWithIndifferentAccess#dig symbol found by string') do
+    @hash_with_indifferent_access.dig('a')
+  end
+
+  x.report('HashWithIndifferentAccess#dig string found by symbol') do
+    @hash_with_indifferent_access.dig(:b)
+  end
+
+  x.report('HashWithIndifferentAccess#dig string found by string') do
+    @hash_with_indifferent_access.dig('b')
+  end
+
+  x.report('HashWithIndifferentAccess#dig symbol not found') do
+    @hash_with_indifferent_access.dig(:c)
+  end
+
+  x.report('HashWithIndifferentAccess#dig string not found') do
+    @hash_with_indifferent_access.dig('c')
   end
 
   x.compare!
